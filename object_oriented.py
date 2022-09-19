@@ -32,3 +32,34 @@ class SebulbasPod(Podracer):
 
     def flame_jet(self, other):
         other.condition = "trashed"
+
+'''
+
+Make sure to answer the following prompts about your coding experience:
+
+How does this solution demonstrate the four pillars of OOP? (It may not demonstrate all of them, describe only those that apply)
+
+Encapsulation
+Abstraction
+Inheritance
+Polymorphism
+
+Answer:
+
+The classes "AnakinsPod" and "SebulbasPod" inherit from their parent class "Podracer" by setting their paramter to "Podracer".
+Using the super() method, "Podracer"'s attributes and methods are inherited when we create an instance of the "AnakinsPod" or "SebulbasPod" classes.
+
+We use Encapsulaion when constructing classes that have both attributes and methods.
+
+The flame_jet() function demonstrates Abstraction.
+We cannot instantiate an abstract class of "Podracer", but its abstract methods can be implemented by the subclass "SebulbasPod", as shown.
+--------------------------------------------------------------------------------------------------------------------
+Would it have been easier to implement a solution to this problem using a different coding style? Why or why not?
+
+No, object oriented programming makes code more reusable, and makes it easier to work within larger programs.
+--------------------------------------------------------------------------------------------------------------------
+How in particular did Object Oriented Programming assist in the solving of this problem?
+
+OOP programs help you prevent repetition, as a class can be defined once and then reused many times.
+
+'''
